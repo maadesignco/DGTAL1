@@ -153,11 +153,17 @@ footer a:hover{
 		text-align: left;
 	}
 /************************************************/
+	#contenido{
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: 800px 800px 800px 380px;
+	}
 	footer{
-		padding-top: 25px;
 		display:grid;
 		grid-template-columns: auto auto;
-		grid-template-rows: 100px 140px;
+		grid-template-rows: 100px 100px 100px;
+		grid-gap: 0px;
+		padding: 25px 20px;
 	}
 	footer h2{
 		font-size: 12pt;
@@ -178,17 +184,18 @@ footer a:hover{
 	footer .linksinteres{
 		padding-top: 3px;
 		padding-bottom: 3px;
-		grid-column: 2/3;
-		grid-row: 1/2;
-	}
-	footer .infoad{
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}
+	footer .infoad{
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
 	footer .infolegal{
-		text-align: left;
+		text-align: right;
+		padding-top:0px;
+		padding-right: 20px;
 		padding-left: 20px;
-		padding-top:50px;
 		font-size: 10pt;
 		grid-column: 2/3;
 		grid-row: 2/3;
