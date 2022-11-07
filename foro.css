@@ -1,0 +1,40 @@
+@charset "utf-8";
+.forointro{
+	margin: 30px;
+}
+.semestresforo{
+	margin: 40px 40px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 150px 150px 150px 150px;
+	grid-gap: 30px;
+}
+.semestresforo a{
+	text-decoration: none;
+	font-size: 20pt;
+	padding-left: 60px;
+	line-height: 150px;
+	font-weight: 600;
+	color:#fff;
+	
+}
+.fsem{
+	background:#DB0003;
+	border-radius: 60px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.4); 
+}
+.semestresforo a:hover{
+	transition: 0.3s;
+	background: green;
+}
+/*@medias*****************************************/
+@media only screen and (max-width:1200px){
+	.semestresforo{
+		grid-template-columns: auto;
+	}
+}
+@media only screen and (max-width:700px){
+	.semestresforo{
+		grid-template-columns: auto;
+	}
+}

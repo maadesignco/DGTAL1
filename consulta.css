@@ -1,0 +1,94 @@
+@charset "utf-8";
+#consulta{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px 300px 300px;
+	grid-gap: 40px 50px;
+}
+.sem{
+	text-align: center;
+	background: blue;
+	border-radius: 50px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
+}
+#consulta a{
+	position: relative;
+	top: 180px;
+	padding: 16px 32px;
+	background: #E1171B;
+	text-decoration: none;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
+}
+#consulta h1{
+	color:#fff;
+	position: relative;
+	top: 100px;
+	font-size: 22pt;
+	font-weight: 600;
+}
+/****MIGA DE PAN****/
+.ubicacion ul.migadepan{
+	padding: 12px 18px;
+	list-style-type: none;
+	background: #eee;
+}
+.ubicacion ul.migadepan li{
+	display: inline;
+	font-size: 18px;
+}
+.ubicacion ul.migadepan li+li:before{
+	padding: 8px;
+	color:#000;
+	content:"/\00a0";
+}
+.ubicacion ul.migadepan li a{
+	color: #1c17e9;
+	text-decoration: none;
+}
+.ubicacion ul.migadepan li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/*********************************/
+.descripcionconsulta{
+	text-align: center;
+	margin: 30px;
+}
+/*@medias****************************************/
+@media only screen and (max-width:1200px){
+	#consulta{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: 300px 300px 300px 300px;
+		grid-gap: 40px 50px;
+	}
+	.sem{
+		text-align: center;
+		background: green;
+		border-radius: 50px;
+	}
+}
+@media only screen and (max-width:700px){
+	#consulta{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 30px;
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
+		grid-gap: 40px 50px;
+	}
+	.sem{
+		text-align: center;
+		background: green;
+		border-radius: 50px;
+	}
+}
