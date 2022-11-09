@@ -179,9 +179,9 @@ footer a:hover{
 	footer{
 		display: grid;
 		grid-template-columns: auto auto;
-		grid-template-rows: 100px 130px 180px 70px;
+		grid-template-rows: 100px 150px 180px 70px;
 		grid-gap: 0px;
-		padding: 25px 30px;
+		padding: 25px 20px;
 	}
 	footer h2{
 		font-size: 18px;
