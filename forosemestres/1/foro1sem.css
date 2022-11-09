@@ -1,0 +1,19 @@
+@charset "utf-8";
+.titulosem{
+	margin-top: 100px;
+}
+.temasforo{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.temasforo a{
+	display: block;
+	width: 100%;
+	padding: 40px 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: #8c4895;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #fff;
+}

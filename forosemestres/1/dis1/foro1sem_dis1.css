@@ -1,0 +1,21 @@
+@charset "utf-8";
+.titdisc{
+	margin-top: 120px;
+}
+.chat{
+	margin: 50px;
+}
+.msg{
+	padding: 10px 20px;
+	background: #82dc2e;
+	border-radius: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.msg1{
+	width: 50%;
+}
+.msg2{
+	width: 50%;
+	align-items: right;
+}
