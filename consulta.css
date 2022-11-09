@@ -59,6 +59,11 @@
 	text-align: center;
 	margin: 30px;
 }
+.footerconsulta{
+	top: 0px;
+	float: left;
+	position: relative;
+}
 /*@medias****************************************/
 @media only screen and (max-width:1200px){
 	#consulta{

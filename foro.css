@@ -27,6 +27,11 @@
 	transition: 0.3s;
 	background: green;
 }
+.footerconsulta{
+	top: 0px;
+	float: left;
+	position: relative;
+}
 /*@medias*****************************************/
 @media only screen and (max-width:1200px){
 	.semestresforo{
