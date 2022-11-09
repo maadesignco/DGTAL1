@@ -32,6 +32,9 @@
 	font-weight: 600;
 }
 /****MIGA DE PAN****/
+.ubicacion{
+	margin-top: 80px;
+}
 .ubicacion ul.migadepan{
 	padding: 12px 18px;
 	list-style-type: none;
