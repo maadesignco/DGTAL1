@@ -1,0 +1,39 @@
+@charset "utf-8";
+.intsemestres{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: grid;
+	grid-template-columns: 48% 48%;
+	grid-template-rows: 500px;
+	grid-gap: 4%;
+}
+.contenidointsemestres{
+	background: #835252;
+	border-radius: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.contenidointsemestres h1{
+	color: #fff;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	top: 230px;
+	font-size: 20pt;
+}
+/*@medias*****************************************************/
+@media only screen and (max-width:700px){
+	.intsemestres{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 40px;
+		margin-bottom: 60px;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 300px 300px;
+		grid-gap: 4%;
+	}
+} 
+

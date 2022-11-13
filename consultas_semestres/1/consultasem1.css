@@ -1,0 +1,50 @@
+@charset "utf-8";
+.materiasconsulta{
+	display: grid;
+	grid-template-columns: 48% 48%;
+	grid-template-rows: 300px 300px;
+	grid-gap: 40px 4%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.materiasconsulta a{
+	text-decoration: none;
+	background: #D23234;
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
+}
+.materiasconsulta a h1{
+	color: #fff;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	top: 120px;
+	font-size: 20pt;
+}
+.materiasconsulta a:hover{
+	background: #192BD7;
+	transition: 1s ease;
+	transform: scale(0.95);
+}
+/*@medias*****************************************************/
+@media only screen and (max-width:700px){
+	.materiasconsulta{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 300px 300px 300px 300px;
+		grid-gap: 40px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+} 
+
+
+
+
+
+

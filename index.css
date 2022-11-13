@@ -175,7 +175,9 @@ footer a:hover{
 		margin-right: 10px;
 	}
 	.menusup a.logo{
-		margin-left: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 20px;
 	}
 	.menusup.responsivo{
 		position: absolute;
