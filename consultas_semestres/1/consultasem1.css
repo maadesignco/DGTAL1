@@ -1,4 +1,10 @@
 @charset "utf-8";
+.botonvolver{
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 5px;
+	z-index: 2;
+}
 .contenidoconsulta{
 	margin: -20px 0px 0px 0px;
 }

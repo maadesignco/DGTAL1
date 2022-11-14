@@ -35,7 +35,7 @@ body{
 #consulta h1{
 	color:#fff;
 	position: relative;
-	top: 100px;
+	top: 110px;
 	font-size: 22pt;
 	font-weight: 600;
 }
@@ -80,7 +80,7 @@ body{
 .botonvolver{
 	padding: 10px 0px 10px 0px;
 	position: relative;
-	top: 0px;
+	top: 25px;
 	z-index: 2;
 }
 .botonvolver a{
@@ -106,17 +106,53 @@ body{
 	width: 170px;
 	z-index: 2;
 }
-/***********************************/
 .descripcionconsulta{
 	text-align: center;
 	margin: 10px 30px 10px 30px;
 }
+
+/***********************************/
 .footerconsulta{
 	top: 0px;
 	float: left;
 	position: relative;
 	box-shadow: 0px -6px 10px rgba(0,0,0,0.2);
 	z-index: 2;
+}
+.c1{
+	background-image:url("consultas_semestres/img/semestre1img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c2{
+	background-image:url("consultas_semestres/img/semestre2img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c3{
+	background-image:url("consultas_semestres/img/semestre3img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c4{
+	background-image:url("consultas_semestres/img/semestre4img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c5{
+	background-image:url("consultas_semestres/img/semestre5img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c6{
+	background-image:url("consultas_semestres/img/semestre6img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c7{
+	background-image:url("consultas_semestres/img/semestre7img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*@medias****************************************/
 @media only screen and (max-width:1200px){
@@ -131,8 +167,16 @@ body{
 	}
 	.sem{
 		text-align: center;
-		background: #8c4895;
 		border-radius: 50px;
+	}
+}
+/*****************************/
+@media only screen and (max-width:900px){
+	.botonvolver{
+		padding: 10px 0px 10px 0px;
+		position: relative;
+		top: 8px;
+		z-index: 2;
 	}
 }
 /*****************************/
@@ -151,7 +195,6 @@ body{
 	}
 	.sem{
 		text-align: center;
-		background: green;
 		border-radius: 50px;
 	}
 }
