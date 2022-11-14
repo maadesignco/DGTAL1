@@ -1,4 +1,7 @@
 @charset "utf-8";
+body{
+	background: #ddd;
+}
 .consultacuerpo{
 	margin-top:-40px;
 }
@@ -14,7 +17,7 @@
 }
 .sem{
 	text-align: center;
-	background: blue;
+	background: #8c4895;
 	border-radius: 50px;
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
@@ -22,9 +25,11 @@
 	position: relative;
 	top: 180px;
 	padding: 16px 32px;
-	background: #E1171B;
+	background: #f1842c;
 	text-decoration: none;
 	border-radius: 20px;
+	color:#fff;
+	font-weight: 600;
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
 #consulta h1{
@@ -36,24 +41,35 @@
 }
 /****MIGA DE PAN****/
 .ubicacion{
-	margin-top: 80px;
+    padding-top: 75px;
+    background: #43bbb9;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 .ubicacion ul.migadepan{
-	padding: 12px 18px;
+	padding: 12px 70px 12px 70px;
 	list-style-type: none;
-	background: #eee;
+	background: inherit;
+	font-size: 14px;
+	font-weight: 600;
+	color:#fff;
+	border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 .ubicacion ul.migadepan li{
 	display: inline;
-	font-size: 18px;
+	padding: 0px 0px 0px 3px;
+	font-size: 14px;
 }
 .ubicacion ul.migadepan li+li:before{
-	padding: 8px;
-	color:#000;
+	padding: 3px;
+	color:#fff;
+	font-weight: 300;
 	content:"/\00a0";
 }
 .ubicacion ul.migadepan li a{
-	color: #1c17e9;
+	color:#fff;
+	font-weight: 300;
 	text-decoration: none;
 }
 .ubicacion ul.migadepan li a:hover{
@@ -115,10 +131,11 @@
 	}
 	.sem{
 		text-align: center;
-		background: green;
+		background: #8c4895;
 		border-radius: 50px;
 	}
 }
+/*****************************/
 @media only screen and (max-width:700px){
 	.consultacuerpo{
 		margin-top:0px;
