@@ -20,19 +20,41 @@
 }
 .materiasconsulta a{
 	text-decoration: none;
-	background: #D23234;
 	text-align: center;
 	border-radius: 50px;
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
 .materiasconsulta a h1{
-	margin: 115px 20px 0px 20px;
-	line-height: 27pt
+	position: relative;
+	color: #fff;
+	top: 45%;
+	font-size: 20pt;
+	font-weight: 700;
+	line-height: 27pt;
 }
 .materiasconsulta a:hover{
-	background: #192BD7;
 	transition: 1s ease;
 	transform: scale(0.95);
+}
+.mat1{
+	background-image: url("img/fundamentos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mat2{
+	background-image: url("img/geometria.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mat3{
+	background-image: url("img/teoriacom.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mat4{
+	background-image: url("img/historia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*@medias*****************************************************/
 @media only screen and (max-width:700px){

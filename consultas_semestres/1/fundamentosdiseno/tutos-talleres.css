@@ -1,6 +1,12 @@
 @charset "utf-8";
+.botonvolver{
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 5px;
+	z-index: 2;
+}
 .contenedorintsemestres{
-	margin: -20px 0px 0px 0px;
+	margin: -25px 0px 0px 0px;
 }
 .intsemestres{
 	margin-left: 50px;
