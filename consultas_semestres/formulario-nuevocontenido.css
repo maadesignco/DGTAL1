@@ -1,35 +1,7 @@
 @charset "utf-8";
 .espacioform{
-	margin-top: -52px;
+	margin-top: -20px;
 	z-index: 0;
-}
-.botonvolver{
-	padding: 10px 0px 10px 0px;
-	position: relative;
-	top: 0px;
-	z-index: 2;
-}
-.botonvolver a{
-	background: #8c4895;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: block;
-	width: 150px;
-    padding: 16px 32px;
-    font-size: 12pt;
-    font-weight: 600;
-	z-index: 2;
-}
-.botonvolver a i{
-	padding: 0;
-	margin-right: 5px;
-}
-.botonvolver a:hover{
-	background: #f1842c;
-	transition: 0.3s ease;
-	z-index: 2;
 }
 /*************************************************************/
 .formulario{
@@ -38,8 +10,14 @@
 	margin-left: 80px;
 	margin-right: 80px;
 }
-.formulario h1, h3{
-	z-index: -2;
+.formulario h1{
+	color: #8c4895;
+	font-weight: 700;
+	text-align: center;
+}
+.formulario h3{
+	color: #8c4895;
+	font-weight: 500;
 	text-align: center;
 }
 form{
@@ -111,5 +89,13 @@ input[type=button]:hover{
 	margin-bottom: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
-}
+	}
+	.formulario h1{
+	font-size: 22pt;
+	line-height: 28pt;
+	margin: 15px 0px 15px 0px; 
+	}
+	.formulario h3{
+	line-height: 19pt;
+	}
 }

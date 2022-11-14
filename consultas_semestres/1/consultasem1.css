@@ -1,4 +1,7 @@
 @charset "utf-8";
+.contenidoconsulta{
+	margin: -20px 0px 0px 0px;
+}
 .materiasconsulta{
 	display: grid;
 	grid-template-columns: 48% 48%;

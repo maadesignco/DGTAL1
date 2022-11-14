@@ -1,4 +1,7 @@
 @charset "utf-8";
+.consultacuerpo{
+	margin-top:-40px;
+}
 #consulta{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -57,10 +60,40 @@
 	color: red;
 	text-decoration: underline;
 }
-/*********************************/
+/*****BOTONVOLVER**************************/
+.botonvolver{
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 0px;
+	z-index: 2;
+}
+.botonvolver a{
+	background: #8c4895;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+	width: 150px;
+    padding: 16px 32px;
+    font-size: 12pt;
+    font-weight: 600;
+	z-index: 2;
+}
+.botonvolver a i{
+	padding: 0;
+	margin-right: 5px;
+}
+.botonvolver a:hover{
+	background: #f1842c;
+	transition: 0.3s ease;
+	width: 170px;
+	z-index: 2;
+}
+/***********************************/
 .descripcionconsulta{
 	text-align: center;
-	margin: 30px;
+	margin: 10px 30px 10px 30px;
 }
 .footerconsulta{
 	top: 0px;
@@ -87,6 +120,9 @@
 	}
 }
 @media only screen and (max-width:700px){
+	.consultacuerpo{
+		margin-top:0px;
+	}
 	#consulta{
 		margin-left: 50px;
 		margin-right: 50px;
