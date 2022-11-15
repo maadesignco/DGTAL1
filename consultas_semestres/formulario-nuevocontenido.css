@@ -31,7 +31,7 @@ input[type=text]{
 	padding: 14px 22px;
 	margin: 8px 0px 16px 0px;
 	box-sizing: border-box;
-	border: 2px solid #eee;
+	border: 2px solid #bbb;
 	box-shadow: 0px 0px 16px rgba(0,0,0,0.4) inset;
 	border-radius: 25px;
 	
@@ -45,7 +45,7 @@ textarea{
 	margin: 8px 0px 16px 0px;
 	padding: 12px 20px;
 	box-sizing: border-box;
-	border: 2px solid #eee;
+	border: 2px solid #bbb;
 	border-radius: 25px;
 	resize: none;
 	box-shadow: 0px 0px 16px rgba(0,0,0,0.4) inset;
@@ -81,21 +81,42 @@ input[type=button]:hover{
 	.espacioform{
 	margin-top: 0px;
 	}
+	.botonvolver{
+		padding: 10px 0px 10px 0px;
+		position: relative;
+		top: 8px;
+		z-index: 2;
+	}
+}
+/*****************************/
+@media only screen and (max-width:900px){
+	.botonvolver{
+		padding: 10px 0px 10px 0px;
+		position: relative;
+		top: 8px;
+		z-index: 2;
+	}
 }
 /*******************************************/
 @media only screen and (max-width:700px){
+	.botonvolver{
+		padding: 10px 0px 10px 0px;
+		position: relative;
+		top: 8px;
+		z-index: 2;
+	}
 	.formulario{
-	margin-top: 0px;
-	margin-bottom: 30px;
-	margin-left: 20px;
-	margin-right: 20px;
+		margin-top: 0px;
+		margin-bottom: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 	.formulario h1{
-	font-size: 22pt;
-	line-height: 28pt;
-	margin: 15px 0px 15px 0px; 
+		font-size: 22pt;
+		line-height: 28pt;
+		margin: 15px 0px 15px 0px; 
 	}
 	.formulario h3{
-	line-height: 19pt;
+		line-height: 19pt;
 	}
 }

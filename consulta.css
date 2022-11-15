@@ -1,7 +1,4 @@
 @charset "utf-8";
-body{
-	background: #ddd;
-}
 .consultacuerpo{
 	margin-top:-40px;
 }
@@ -112,13 +109,6 @@ body{
 }
 
 /***********************************/
-.footerconsulta{
-	top: 0px;
-	float: left;
-	position: relative;
-	box-shadow: 0px -6px 10px rgba(0,0,0,0.2);
-	z-index: 2;
-}
 .c1{
 	background-image:url("consultas_semestres/img/semestre1img.jpg");
 	background-repeat: no-repeat;

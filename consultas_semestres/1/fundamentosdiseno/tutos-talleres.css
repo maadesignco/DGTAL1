@@ -26,12 +26,23 @@
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
 .contenidointsemestres h1{
-	line-height: 500px; 
+	position: relative;
+	top: 50%;
+	color: #fff;
 }
 .intsemestres a:hover{
-	background: #192BD7;
 	transition: 1s ease;
 	transform: scale(0.95);
+}
+.tutos{
+	background-image: url("img/tutos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.talleres{
+	background-image: url("img/talleres.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*@medias*****************************************************/
 @media only screen and (max-width:700px){
