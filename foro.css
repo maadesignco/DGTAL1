@@ -1,14 +1,20 @@
 @charset "utf-8";
+.botonvolver{
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 10px;
+	z-index: 2;
+}
 .forointro{
-	margin-top: 100px;
-	padding-top: 20px;
+	margin: 25px 0px 0px 0px;
+	padding: 0px 30px 0px 30px;
 }
 .semestresforo{
 	margin: 40px 40px;
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-template-rows: 150px 150px 150px 150px;
-	grid-gap: 30px;
+	grid-gap: 40px 30px;
 }
 .semestresforo a{
 	text-decoration: none;
@@ -17,7 +23,6 @@
 	line-height: 150px;
 	font-weight: 600;
 	color:#fff;
-	
 }
 .fsem{
 	background:#DB0003;
@@ -26,7 +31,42 @@
 }
 .semestresforo a:hover{
 	transition: 0.3s;
-	background: green;
+	transform: scale(0.95)
+}
+.f1{
+	background-image:url("forosemestres/img/semestre1img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f2{
+	background-image:url("forosemestres/img/semestre2img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f3{
+	background-image:url("forosemestres/img/semestre3img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f4{
+	background-image:url("forosemestres/img/semestre4img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f5{
+	background-image:url("forosemestres/img/semestre5img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f6{
+	background-image:url("forosemestres/img/semestre6img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.f7{
+	background-image:url("forosemestres/img/semestre7img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*@medias*****************************************/
 @media only screen and (max-width:1200px){

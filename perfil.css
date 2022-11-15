@@ -1,0 +1,109 @@
+@charset "utf-8";
+.botonvolver{
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	top: 0;
+	z-index: 2;
+}
+.contenedorperfil{
+	display: grid;
+	grid-template-columns: 350px auto;
+	grid-template-rows: 500px;
+	margin: 0px 0px 30px 0px;
+}
+.infousuario{
+    background: #8c4895;
+    text-align: center;
+    padding: 45px 0px 0px 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.infousuario .fotoperfil img{
+	border-radius: 20px;
+	width: 150px;
+}
+.infousuario h1{
+	padding: 10px 0px 0px 0px;
+	color: #fff;
+	font-size: 20pt;
+}
+.infoadperf{
+	padding: 10px 0px 0px 0px;
+}
+.datos h2{
+	font-size: 13pt;
+	color: #f1842c;
+	font-weight: 600;
+}
+.datos h3{
+	font-size: 10pt;
+	color: #fff;
+	font-weight: 500;
+}
+/****************************************************/
+.recordspagina{
+	padding: 10px 0px 0px 50px;
+}
+.progreso h1, .aportesforo h1, .aportesmaterial h1{
+	color: #8c4895;
+}
+/*barraprogreso**************************************/
+.barraprogreso{
+	padding: 10px 0px 5px 30px;
+}
+.barraprogreso h1{
+	display: inline-block;
+	font-size: 13pt;
+}
+.barraprogreso .niveles{
+	height: 30px;
+	width: 80%;
+}
+.barraprogreso .nivel1{
+	float: left;
+}
+.barraprogreso .nivel2{
+	float: right;
+}
+.barraprogreso .barra{
+	border: 0px #8c4895 solid;
+	border-radius: 20px;
+	height: 39px;
+	width: 80%;
+	background: #ccc;
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.2) inset;
+}
+.barra .barracolor{
+	display: block;
+	border-radius: 18px;
+	height: 39px;
+	width: 80%;
+	background: #8c4895;
+}
+.informativorecompensa{
+	padding: 5px 0px 0px 30px;
+}
+.informativorecompensa h2{
+	font-size: 11pt;
+	font-weight: 500;
+	color: #8c4895;
+}
+/**********************************************************/
+.progreso, .aportesforo, .aportesmaterial{
+	margin: 0px 0px 30px 0px;
+}
+.textosaf{
+	padding: 0px 0px 0px 30px;
+}
+.textosaf h3{
+	font-size: 14pt;
+	font-weight: 500;
+}
+/*@medias*********************************************/
+@media only screen and (max-width:700px){
+	.contenedorperfil{
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: 500px 500px;
+	}
+}
