@@ -7,7 +7,7 @@
 }
 .contenedorperfil{
 	display: grid;
-	grid-template-columns: 350px auto;
+	grid-template-columns: 400px auto;
 	grid-template-rows: 500px;
 	margin: 0px 0px 30px 0px;
 }

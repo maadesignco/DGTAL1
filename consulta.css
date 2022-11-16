@@ -92,6 +92,7 @@
     font-size: 12pt;
     font-weight: 600;
 	z-index: 2;
+	transition: 0.3s ease;
 }
 .botonvolver a i{
 	padding: 0;
@@ -99,15 +100,19 @@
 }
 .botonvolver a:hover{
 	background: #f1842c;
-	transition: 0.3s ease;
-	width: 170px;
+	width: 180px;
 	z-index: 2;
 }
 .descripcionconsulta{
 	text-align: center;
 	margin: 10px 30px 10px 30px;
 }
-
+.footerconsulta{
+	background: #43bbb9;
+	color: #fff;
+}.footerconsulta a{
+	color: #fff;
+}
 /***********************************/
 .c1{
 	background-image:url("consultas_semestres/img/semestre1img.jpg");
