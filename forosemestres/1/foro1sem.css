@@ -1,10 +1,15 @@
 @charset "utf-8";
+.cuerpoforo{
+	margin: -20px;
+}
 .titulosem{
-	margin-top: 100px;
+	text-align: center;
+	font-size: 25pt;
+	color: #8c4895;
 }
 .temasforo{
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 .temasforo a{
 	display: block;
@@ -16,4 +21,23 @@
 	border-radius: 40px;
 	text-decoration: none;
 	color: #fff;
+}
+/********************************************************************/
+@media only screen and (max-width: 840px){
+	.cuerpoforo{
+		margin: 15px;
+	}
+	.titulosem{
+		text-align: center;
+		font-size: 25pt;
+		color: #8c4895;
+		line-height: 30pt;
+	}
+}
+/********************************************************************/
+@media only screen and (max-width: 700px){
+	.temasforo{
+	margin-left: 40px;
+	margin-right: 40px;
+}
 }

@@ -6,11 +6,32 @@
 	z-index: 2;
 }
 .forointro{
-	margin: 25px 0px 0px 0px;
-	padding: 0px 30px 0px 30px;
+	margin: -30px 0px 0px 0px;
+	padding: 0px 60px 0px 60px;
+}
+.forointro h1{
+	padding: 20px 0px 5px 0px;
+	text-align: center;
+	font-size: 30pt;
+	color: #8c4895;
+	line-height: 32pt;
+}
+.forointro h2{
+	margin: 20px 0px 0px 0px;
+	font-size: 18pt;
+	color: #8c4895;
+}
+.forointro h3{
+	font-size: 12pt;
+	color: #000;
+	font-weight: 400;
+}
+.forointro .titincentivo{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
 }
 .semestresforo{
-	margin: 40px 40px;
+	margin:  40px 60px 50px 60px;
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-template-rows: 150px 150px 150px 150px;
@@ -26,7 +47,6 @@
 	transition: 0.3s ease;
 }
 .fsem{
-	background:#DB0003;
 	border-radius: 60px;
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.4); 
 }
@@ -75,6 +95,14 @@
 		grid-template-columns: auto;
 	}
 }
+/*****************************************/
+@media only screen and (max-width:900px){
+	.forointro{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 50px 0px 50px;
+	}
+}
+/*****************************************/
 @media only screen and (max-width:700px){
 	.semestresforo{
 		grid-template-columns: auto;

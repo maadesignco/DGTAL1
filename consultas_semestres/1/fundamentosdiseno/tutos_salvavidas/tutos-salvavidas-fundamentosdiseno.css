@@ -78,4 +78,7 @@
 	.conttemas h3, .conttemas h1{
 		text-align: center;
 	}
+	.conttemas h3{
+		margin-left: 0px;
+	}
 }
