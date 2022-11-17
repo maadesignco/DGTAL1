@@ -6,7 +6,7 @@
 	z-index: 2;
 }
 .contenidotema{
-	margin: -40px 30px 50px 30px;
+	margin: -40px 60px 50px 60px;
 }
 .contenidotema h1{
 	padding: 15px 0px 20px 0px;
@@ -27,37 +27,68 @@
 .barralattema{
     grid-column: 2/3;
     background: #8c4895;
-    position: relative;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
+	display: flex;
+	align-items: center;
+	text-align: left;
 }
 .barralattema .elementosbarralattema{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-	text-align: left;
+	padding: 0px 20px 0px 20px;
 }
 .barralattema h1{
 	text-align: left;
-	font-size: 14pt;
+	font-size: 13pt;
+	color: #f1842c;
 	padding: 0;
 }
 .barralattema h3{
-	font-size: 13pt;
+	font-size: 12pt;
+	font-weight: 500;
+	color: #fff;
 	padding: 0;
 }
 .barralattema .autor{
-	
 }
 .barralattema .fecha{
-
+	margin-top: 10px;
 }
 .barralattema .megusta{
-
+	margin-top: 10px;
 }
-.deditos{
+.deditos h2{
 	display: inline-block;
+	margin-right: 20px;
+}
+.deditos h2 a{
+	font-size: 30pt;
+	transition: 0.5s;
+	color: #fff;
+}
+.deditos h2 a:hover{
+	background: #f1842c;
+}
+.resumen{
+	margin-top: 10px;
+	font-size: 11pt;
+	color: #fff;
+}
+.fallas{
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+input[type=button]{
+	background: #32C8DE;
+	border:none;
+	font-size: 14px;
+	padding: 14px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	text-align: center;
+	width: 200px;
+	border-radius: 20px;
+	cursor: pointer;
 }
 /**************************************/
 @media only screen and (max-width: 980px){
