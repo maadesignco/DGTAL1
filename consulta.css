@@ -18,7 +18,7 @@
 	border-radius: 50px;
 	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
-#consulta a{
+.sem a{
 	position: relative;
 	top: 180px;
 	padding: 16px 32px;
@@ -27,7 +27,11 @@
 	border-radius: 20px;
 	color:#fff;
 	font-weight: 600;
-	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+	transition: 0.5s;
+}
+.sem a:hover{
+	background: #43bbb9;
 }
 #consulta h1{
 	color:#fff;

@@ -18,21 +18,20 @@
 	grid-template-rows: 500px;
 	grid-gap: 4%;
 }
-.contenidointsemestres{
-	background: #835252;
+.intsemestres a{
 	border-radius: 40px;
 	text-align: center;
 	text-decoration: none;
-	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
-}
-.contenidointsemestres h1{
-	position: relative;
-	top: 50%;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	color: #fff;
 }
 .intsemestres a:hover{
-	transition: 1s ease;
-	transform: scale(0.95);
+	transform: scale(1.05);
+	filter: hue-rotate(90deg) brightness(120%);
 }
 .tutos{
 	background-image: url("img/tutos.jpg");

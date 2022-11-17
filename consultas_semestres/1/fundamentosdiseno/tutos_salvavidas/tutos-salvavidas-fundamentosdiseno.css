@@ -9,10 +9,13 @@
 	margin: -10px 0px 0px 0px;
 }
 .temas{
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 20px;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 80px;
+	margin-right: 80px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0px 50px;
 }
 .sephorizontal{
 	height: 2px;
@@ -49,7 +52,7 @@
 	border:none;
 	outline: none;
 	border-radius: 20px;
-	background: #3B51D6;
+	background: #8c4895;
 }
 .botonform button a{
 	font-size: 12pt;
@@ -59,4 +62,20 @@
 	text-decoration: none;
 	padding: 16px 32px;
 	border-radius: 20px;
+	transition: 0.5s;
+}
+.botonform button a:hover{
+	background: #f1842c;
+}
+/****************************************************************/
+@media only screen and (max-width:700px){
+	.temas{
+		margin-left: 60px;
+		margin-right: 60px;
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.conttemas h3, .conttemas h1{
+		text-align: center;
+	}
 }
