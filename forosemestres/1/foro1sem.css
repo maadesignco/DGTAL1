@@ -1,6 +1,6 @@
 @charset "utf-8";
 .cuerpoforo{
-	margin: -20px;
+	margin-top: -20px;
 }
 .titulosem{
 	text-align: center;
@@ -15,17 +15,90 @@
 	display: block;
 	width: 100%;
 	padding: 40px 40px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	background: #8c4895;
 	border-radius: 40px;
 	text-decoration: none;
 	color: #fff;
 }
+.paginacion{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.paginacion a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 12px;
+	border-radius: 10px;
+	margin: -2px;
+}
+.paginacion a.activo{
+	color: #fff;
+	background: #8c4895;
+}
+.paginacion a:hover:not(.activo){
+	background: #ccc;
+	padding: 5px 12px;
+	border-radius: 10px;
+}
+.nuevotemabtn{
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+.nuevotemabtn button{
+	margin: 0;
+	padding: 0;
+	border-radius: 30px;
+	border:none;
+	background: #43bbb9;
+}
+.nuevotemabtn button a{
+	display: block;
+	padding: 16px 32px;
+	border-radius: 30px;
+	font-size: 12pt;
+	font-weight: 600;
+	text-decoration: none;
+	transition: 0.4s;
+	color: #fff;
+}
+.nuevotemabtn button a:hover{
+	background: #f1842c;
+	color: #000;
+}
+.botonarriba{
+	text-align: center;
+	padding: 00px 0px 30px 0px;
+}
+.botonarriba button{
+	margin: 0;
+	padding: 0;
+	border-radius: 30px;
+	border:none;
+	background: #43bbb9;
+}
+.botonarriba button a{
+	display: block;
+	padding: 10px 22px;
+	border-radius: 30px;
+	font-size: 12pt;
+	font-weight: 600;
+	text-decoration: none;
+	transition: 0.4s;
+	color: #fff;
+}
+.botonarriba button a i{
+	font-size: 18pt;
+}
+.botonarriba button a:hover{
+	background: #f1842c;
+	color: #000;
+}
 /********************************************************************/
 @media only screen and (max-width: 840px){
 	.cuerpoforo{
-		margin: 15px;
+		margin-top: 15px;
 	}
 	.titulosem{
 		text-align: center;
@@ -36,8 +109,11 @@
 }
 /********************************************************************/
 @media only screen and (max-width: 700px){
+	.titulosem{
+		margin: 0px 20px 0px 20px;
+	}
 	.temasforo{
-	margin-left: 40px;
-	margin-right: 40px;
-}
+		margin-left: 40px;
+		margin-right: 40px;
+		}
 }
