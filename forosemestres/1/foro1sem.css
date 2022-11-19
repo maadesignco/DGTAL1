@@ -22,6 +22,40 @@
 	text-decoration: none;
 	color: #fff;
 }
+/*****************************/
+.temasforo .texttags{
+	display: flex;
+	align-items: center;
+}
+.temasforo .texttags h1{
+	font-size: 14pt;
+	font-weight: 600;
+}
+.texttags .tag{
+	margin-left: 20px;
+	font-size: 12px;
+	background: #f1842c;
+	border-radius: 15px;
+	padding: 3px 10px;
+}
+/*****************************/
+.temasforo a .infocompl{
+	display: flex;
+	float: right;
+}
+.temasforo a h1{
+	font-size: 15pt;
+	font-weight: 400;
+}
+.temasforo a h2{
+	font-size: 10pt;
+	font-weight: 600;
+}
+.temasforo a .infocompl h6{
+	margin: 0px 0px 0px 15px;
+	font-size: 10pt;
+	font-weight: 400;
+}
 .paginacion{
 	text-align: center;
 	padding-bottom: 20px;
@@ -96,6 +130,7 @@
 	background: #f1842c;
 	color: #000;
 }
+
 /********************************************************************/
 @media only screen and (max-width: 840px){
 	.cuerpoforo{
@@ -107,6 +142,29 @@
 		color: #8c4895;
 		line-height: 30pt;
 	}
+	.temasforo .texttags{
+		flex-direction: column;
+	}
+	.temasforo .texttags h1{
+		padding-bottom: 5px;
+	}
+	.texttags .tag{
+		margin: 0;
+	}
+	.temasforo a .infocompl{
+		margin-top: 5px;
+		justify-content: center;
+		float: none;
+	}
+	.temasforo a h2{
+		padding-top: 5px;
+		text-align: center;
+	}
+	.temasforo a .infocompl h6{
+		margin: 0px 0px 0px 15px;
+		font-size: 10pt;
+		font-weight: 400;
+	}
 }
 /********************************************************************/
 @media only screen and (max-width: 700px){
@@ -117,4 +175,7 @@
 		margin-left: 40px;
 		margin-right: 40px;
 		}
+	.temasforo .texttags h1{
+		font-size: 12pt;
+	}
 }

@@ -3,12 +3,7 @@
 	box-sizing: border-box;
 }
 .contforoint{
-	background: #ccc;
-	position: relative;
-	top: 30px;
-	padding-top: 70px;
-	padding-bottom: 30px;
-	z-index: 0;
+	
 }
 .titdisc{
 	padding-left:50px; 
