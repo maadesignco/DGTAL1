@@ -35,6 +35,7 @@
 	margin-left: 20px;
 	font-size: 12px;
 	background: #f1842c;
+	color:#000;
 	border-radius: 15px;
 	padding: 3px 10px;
 }
@@ -177,5 +178,25 @@
 		}
 	.temasforo .texttags h1{
 		font-size: 12pt;
+	}
+}
+/********************************************************************/
+@media only screen and (max-width:500px){
+	.temasforo a .infocompl{
+		margin: 10px 0px 0px 0px;
+		flex-direction: column;
+	}
+	.temasforo a .infocompl h6{
+		margin: 0;
+		text-align: center;
+	}
+	.temasforo .texttags h1{
+		text-align: center;
+		line-height: 15pt;
+		margin-bottom: 5px;
+	}
+	.texttags .tag{
+		text-align: center;
+		line-height: 15px;
 	}
 }
