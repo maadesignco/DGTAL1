@@ -105,8 +105,8 @@
 	.contenedorperfil{
 		display: grid;
 		grid-template-columns: auto;
-		grid-template-rows: 500px 440px;
-		margin-bottom: 0px;
+		grid-template-rows: 500px 400px;
+		margin-bottom: 40px;
 	}
 	.infousuario{
 		border-radius: 40px;
