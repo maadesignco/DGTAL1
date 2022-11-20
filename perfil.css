@@ -46,6 +46,7 @@
 }
 .progreso h1, .aportesforo h1, .aportesmaterial h1{
 	color: #8c4895;
+	font-size: 20pt;
 }
 /*barraprogreso**************************************/
 .barraprogreso{
@@ -96,30 +97,38 @@
 	padding: 0px 0px 0px 30px;
 }
 .textosaf h3{
-	font-size: 14pt;
+	font-size: 13pt;
 	font-weight: 500;
 }
 /*@medias*********************************************/
-@media only screen and (max-width:700px){
+@media only screen and (max-width:760px){
 	.contenedorperfil{
 		display: grid;
 		grid-template-columns: auto;
-		grid-template-rows: 500px 500px;
+		grid-template-rows: 500px 440px;
+		margin-bottom: 0px;
 	}
 	.infousuario{
 		border-radius: 40px;
-		margin: 0px 30px;
+		margin: 0px 30px 10px 30px;
 	}
 	.recordspagina{
-		padding: 0;
-		margin: 0;
+		padding: 0px 0px 0px 0px;
+		margin: 15px 10px 0px 10px;
 		text-align: center;
 	}
-	.progreso{
-		margin-left: auto;
-		margin-right: auto;
+	.barraprogreso{
+		margin: 0 10%;
+		padding: 0;
 	}
-	.barraprogreso{	
-		padding: 5px 0px 5px 0px;
+	.barraprogreso .niveles, .barraprogreso .barra{
+		width: 100%;
 	}
+	.informativorecompensa{
+		padding: 5px 60px 0px 60px;
+	}
+	.textosaf{
+		padding: 0px 0px 0px 0px;
+	}
+	
 }
