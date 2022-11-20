@@ -20,6 +20,7 @@
 }
 .materialtema{
 	grid-column: 1/2;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
 .materialtema iframe{
 	height: 600px;
@@ -32,6 +33,7 @@
 	display: flex;
 	align-items: center;
 	text-align: left;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.3)
 }
 .barralattema .elementosbarralattema{
 	padding: 0px 20px 0px 20px;

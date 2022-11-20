@@ -26,6 +26,13 @@
 	color: #000;
 	font-weight: 400;
 }
+.forointro .enlacetexto{
+	color: #8c4895;
+	transition: 0.2s;
+}
+.forointro .enlacetexto:hover{
+	color: #f1842c;
+}
 .forointro .titincentivo{
 	padding: 20px 0px 20px 0px;
 	text-align: center;
@@ -116,5 +123,8 @@
 		transition: 0.3s ease;
 		margin: 0;
 		padding: 0;
+	}
+	.forointro .titincentivo{
+		line-height: 25pt;
 	}
 }

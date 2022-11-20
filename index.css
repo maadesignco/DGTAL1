@@ -90,19 +90,6 @@ main{
 	background-image: url("media/1.jpg");
 	background-size: cover;
 	background-position: center;
-	display: block;
-	color: #fff;
-}
-main h1{
-	font-size: 6vw;
-	padding: 100px 30px 0px 0px;
-	float: right;
-}
-main h3{
-	font-size: 2vw;
-	text-align: right;
-	margin: 0px 30px 0px 20%;
-	float: right;
 }
 /********************************/
 .seccion1{
@@ -112,16 +99,27 @@ main h3{
 	background-size: cover;
 	background-position: center;
 }
-.seccion1 h1{
-	font-size: 6vw;
-	margin: 0px 0px 0px 30px;
-	float: left;
+.textosintro{
+	color: #fff;
 }
-.seccion1 h3{
+.textosintro h1{
+	font-size: 3.5vw;
+	line-height: 4.5vw;
+	padding-bottom: 10px;
+}
+.textosintro h3{
 	font-size: 2vw;
-	text-align: left;
-	margin: 0px 20% 0px 30px;
-	float: left;
+	font-weight: 600
+}
+.txt1{
+	padding: 150px 50% 0px 50px;
+}
+.txt2{
+	text-align: right;
+	padding: 50px 50px 0px 40%;
+}
+.txt3{
+	padding: 50px 50% 0px 50px;
 }
 /*****************************/
 .seccion2{
@@ -131,17 +129,6 @@ main h3{
 	background-size: cover;
 	background-position: center;
 	margin-bottom: -30px;
-}
-.seccion2 h1{
-	font-size: 6vw;
-	padding: 0px 30px 0px 0px;
-	float: right;
-}
-.seccion2 h3{
-	font-size: 2vw;
-	text-align: right;
-	margin: 0px 30px 0px 20%;
-	float: right;
 }
 /*******footer*******/
 .footerconsulta{
@@ -252,18 +239,33 @@ main h3{
 	#contenido{
 		display: grid;
 		grid-template-columns: auto;
-		grid-template-rows: 800px 800px 800px;
+		grid-template-rows: 600px 600px 600px;
 	}
-	main h1{
-		font-size: 7vw;
-		margin: 0px 30px 0px 0px;
-		float: right;
+	.textosintro{
+		color: #fff;
+		display: flex;
+		flex-direction: column;
 	}
-	main h3{
-		font-size: 3vw;
-		text-align: right;
-		margin: 0px 30px 0px 20%;
-		float: right;
+	.textosintro h1{
+		font-size: 2em;
+		line-height: 1.4em;
+		padding-bottom: 10px;
+	}
+	.textosintro h3{
+		font-size: 1.2em;
+		font-weight: 600
+	}
+	.txt1{
+		text-align: center;
+		padding: 150px 10% 0px 10%;
+	}
+	.txt2{
+		text-align: center;
+		padding: 50px 10% 0px 10%;
+	}
+	.txt3{
+		text-align: center;
+		padding: 50px 10% 0px 10%;
 	}
 /********************************/
 	.footerconsulta{

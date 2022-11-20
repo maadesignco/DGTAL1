@@ -30,7 +30,7 @@
 	color: #fff;
 }
 .intsemestres a:hover{
-	transform: scale(1.05);
+	transform: scale(1.02);
 	filter: hue-rotate(90deg) brightness(120%);
 }
 .tutos{
