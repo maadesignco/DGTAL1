@@ -103,6 +103,7 @@
 }
 .botonvolver a:hover{
 	background: #f1842c;
+	color: #000;
 	width: 180px;
 	z-index: 2;
 }
